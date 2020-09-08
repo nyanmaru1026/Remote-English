@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<!--
+<script type="text/javascript" src="外部Javascriptファイルへのパス"></script>
+-->
+<title>Remote English</title>
+</head>
+<body>
+  <div class = "header">
+    <div class = "header-left">
+    <h1>Remote English</h1>
+    </div>
+    <div class = "header-center">
+     <input type="search" name="search" placeholder="カリキュラム検索" class = "search-box">
+     <input type="submit" name="submit" value="検索" class = "btn-s">
+    </div>
+     <div class="header-right">
+        <%= link_to "ログイン", new_user_session_path, class: "header-right_btn" %>
+        <%= link_to "新規登録", new_user_registration_path, class: "header-right_btn" %>
+    </div>
+  </div>
+  <div class = "main">
+    <div class = "main-img">
+    </div>
+    <div class = "main-text">
+      塾に通わなくても大丈夫
+    </div>
+  </div>
+  <div class = "culiculum">
+  </div>
+
+  <table>
+        <thead>
+            <tr>
+                <td></td>
+                <th scope="col">内容</th>
+                <th scope="col">価格(月額)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><a href = "/views/make">英語に対しての誤解</a></th>
+                <td data-label="内容" class="txt">学習を始める前に必ずお読みください。</td>
+                <td data-label="難易度" class="price">★</td>
+            </tr>
+            <tr>
+                <th>カスタムプラン</th>
+                <td data-label="内容" class="txt">必要なものだけ揃えられるカスタムプラン</td>
+                <td data-label="価格"class="price">¥4,000</td>
+            </tr>
+            <tr>
+                <th>プレミアムプラン</th>
+                <td data-label="内容" class="txt">全ておまかせのプレミアムプラン</td>
+                <td data-label="価格"class="price">¥10,000</td>
+            </tr>
+          <tr>
+                <th>ベーシックプラン</th>
+                <td data-label="内容" class="txt">はじめての方向け。ベーシックなお試しプラン</td>
+                <td data-label="価格" class="price">¥3,000</td>
+            </tr>
+            <tr>
+                <th>カスタムプラン</th>
+                <td data-label="内容" class="txt">必要なものだけ揃えられるカスタムプラン</td>
+                <td data-label="価格"class="price">¥4,000</td>
+            </tr>
+            <tr>
+                <th>プレミアムプラン</th>
+                <td data-label="内容" class="txt">全ておまかせのプレミアムプラン</td>
+                <td data-label="価格"class="price">¥10,000</td>
+            </tr>
+          <tr>
+                <th>ベーシックプラン</th>
+                <td data-label="内容" class="txt">はじめての方向け。ベーシックなお試しプラン</td>
+                <td data-label="価格" class="price">¥3,000</td>
+            </tr>
+            <tr>
+                <th>カスタムプラン</th>
+                <td data-label="内容" class="txt">必要なものだけ揃えられるカスタムプラン</td>
+                <td data-label="価格"class="price">¥4,000</td>
+            </tr>
+            <tr>
+                <th>プレミアムプラン</th>
+                <td data-label="内容" class="txt">全ておまかせのプレミアムプラン</td>
+                <td data-label="価格"class="price">¥10,000</td>
+            </tr>
+        </tbody>
+    </table>   
+
+
+</body>
+
+
+
