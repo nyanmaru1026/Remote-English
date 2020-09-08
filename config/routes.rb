@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resources :views, only: :index
+  root to: 'views#index'
+  get 'views/make', to: 'views#make'
 end
