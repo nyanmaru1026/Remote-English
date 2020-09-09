@@ -12,13 +12,6 @@ Web学習サイトを作成しました。
 誰でもどこでも手軽に学びたい時に学べるをコンセプトに、アプリを作成しました。
 これによって学習進捗が遅れても、いつでも取り戻せることが実現できます。
 
-## DEMO
-![トップページ①](https://gyazo.com/7f7ef3310409729a0cda2d5377d8be7e)
-![トップページ②](https://gyazo.com/959dfe2ae8860a4e2b01c0cb4c2a3638)
-![カリキュラム①](https://gyazo.com/d2b024fafb30371fea057465007a155f)
-![カリキュラム②](https://gyazo.com/ea534eecca0f22387b364d2553fc6be4)
-
-
 ## 工夫したポイント
 ・アウトプット重視なので問題数がかなり多い。 <br>
 ・1人でも挫折しないようにカリキュラムは細かく分かれている。<br>
@@ -27,6 +20,12 @@ Web学習サイトを作成しました。
 ・進捗管理のパーセンテージが常に出てきているので、全体の進捗を掴みやすい。<br>
 ・インクリメンタルサーチでカリキュラムの内容を素早く検索できる。<br>
 ・基礎から発展レベルまで幅広く対応しているため、全ての受験者層に当てはまる<br>
+
+## DEMO
+![トップページ①](https://user-images.githubusercontent.com/62867403/92554683-e215f380-f2a0-11ea-85e6-ae379d11ce3b.jpg)
+![トップページ②](https://user-images.githubusercontent.com/62867403/92554740-ffe35880-f2a0-11ea-9182-9e4f7832a163.png)
+![カリキュラム①](https://user-images.githubusercontent.com/62867403/92554772-14bfec00-f2a1-11ea-9eec-a5511500d184.jpg)
+![カリキュラム②](https://user-images.githubusercontent.com/62867403/92554797-230e0800-f2a1-11ea-9d71-48f2f652d5c6.png)
 
 ## 開発環境
 ・Ruby 2.5.1
