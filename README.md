@@ -1,24 +1,48 @@
-# README
+# Remote English
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+・大学受験をする人たちが最短で英語の力をつけるためのWeb学習サイト<br>
+・インプットはもちろんのこと、時間がなくアウトプットできてない人たちにオススメ。<br>
+・全てのレベルに対応しているため、幅広い学習が可能
 
-Things you may want to cover:
+## 制作背景
+今、コロナウイルスで前みたいに学校へ通うことが中々難しくなっています。
+前職が講師という事もあって、学校へ通わなくても満足に学習できる環境を提供したいと考えるようになり、
+Web学習サイトを作成しました。
+誰でもどこでも手軽に学びたい時に学べるをコンセプトに、アプリを作成しました。
+これによって学習進捗が遅れても、いつでも取り戻せることが実現できます。
 
-* Ruby version
+## DEMO
+![トップページ①](https://gyazo.com/7f7ef3310409729a0cda2d5377d8be7e)
+![トップページ②](https://gyazo.com/959dfe2ae8860a4e2b01c0cb4c2a3638)
+![カリキュラム①](https://gyazo.com/d2b024fafb30371fea057465007a155f)
+![カリキュラム②](https://gyazo.com/ea534eecca0f22387b364d2553fc6be4)
 
-* System dependencies
 
-* Configuration
+## 工夫したポイント
+・アウトプット重視なので問題数がかなり多い。 <br>
+・1人でも挫折しないようにカリキュラムは細かく分かれている。<br>
+・最初からやる必要はなく分からないところを好きなだけやれる。<br>
+・難易度別にも、カテゴリー別にも分かれており、内容をみる前から概要がわかりやすくなっている。<br>
+・進捗管理のパーセンテージが常に出てきているので、全体の進捗を掴みやすい。<br>
+・インクリメンタルサーチでカリキュラムの内容を素早く検索できる。<br>
+・基礎から発展レベルまで幅広く対応しているため、全ての受験者層に当てはまる<br>
 
-* Database creation
+## 開発環境
+・Ruby 2.5.1
+・Rails 5.2.3
 
-* Database initialization
+## 今後実装したい機能
+・Action Cableを用いた進捗管理形式<br>
+・ajaxを用いた非同期通信<br>
+・capistranoによるAWS EC2への自動デプロイ<br>
+・ActiveStorageを使用しAWS S3への画像アップロード<br>
+・インクリメンタルサーチの実装
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## DB設計
+### Usersテーブル
+| Column | Type | Options |
+|:-----------:|:------------:|:------------:|
+| nickname       | string        | null: false         |
+| email   | string      | null: false       |
+| encrypted_password      | string        | null: false         |
