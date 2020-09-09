@@ -16,6 +16,11 @@
   margin-left: 20px;
 }
 
+.header-right{
+  margin-left: 900px;
+  margin-top: 25px;
+}
+
 .btn-s {
   display: inline-block;
   max-width: 180px;
